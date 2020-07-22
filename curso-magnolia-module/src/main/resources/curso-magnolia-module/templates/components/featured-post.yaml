@@ -1,0 +1,4 @@
+title: Featured post
+renderType: freemarker
+templateScript: /curso-magnolia-module/templates/components/featured-post.ftl
+dialog: curso-magnolia-module:components/featured-post

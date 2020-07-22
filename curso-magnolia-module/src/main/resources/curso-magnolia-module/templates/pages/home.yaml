@@ -1,0 +1,14 @@
+title: Página de inicio
+templateScript: /curso-magnolia-module/templates/pages/home.ftl
+renderType: freemarker
+dialog: curso-magnolia-module:pages/home
+visible: true
+
+areas:
+  main:
+    renderType: freemarker
+    type: single
+    availableComponents: 
+      featured-post:
+        id: curso-magnolia-module:components/featured-post
+    optional: false
